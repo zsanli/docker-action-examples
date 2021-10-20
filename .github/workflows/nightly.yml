@@ -10,7 +10,7 @@ jobs:
     permissions: 
       packages: write
     env:
-      PROD_IMAGE: ghcr.io/metcalfc/docker-action-examples:edge
+      PROD_IMAGE: ghcr.io/zsanli/docker-action-examples:edge
       HUB_PULL_SECRET: NA 
     steps:
       # GitHub Actions do not automatically checkout your projects. If you need the code

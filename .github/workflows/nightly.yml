@@ -7,6 +7,8 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    permissions: 
+      packages: write
     env:
       PROD_IMAGE: ghcr.io/metcalfc/docker-action-examples:edge
       HUB_PULL_SECRET: NA 

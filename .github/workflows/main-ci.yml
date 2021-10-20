@@ -10,6 +10,8 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+    permissions: 
+      packages: write
     steps:
       # GitHub Actions do not automatically checkout your projects. If you need the code
       # you need to check it out.

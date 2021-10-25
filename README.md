@@ -1,7 +1,6 @@
 # Docker GitHub Action Example
 
-![Main Branch CI](https://github.com/zsanli/docker-action-examples/workflows/Main%20Branch%20CI/badge.svg?branch=main) ![Nightly Test](https://github.com/zsanli/docker-action-examples/workflows/Nightly%20Test/badge.svg?branch=main) ![PR CI](https://github.com/zsanli/docker-action-examples/workflows/PR%20CI/badge.svg?branch=dev) ![Publish Releases to Hub](https://github.com/zsanli/docker-action-examples/workflows/Publish%20Releases%20to%20Hub/badge.svg?branch=main)
-
+[![Main Branch CI](https://github.com/zsanli/docker-action-examples/actions/workflows/main-ci.yml/badge.svg)](https://github.com/zsanli/docker-action-examples/actions/workflows/main-ci.yml) [![Nightly Test](https://github.com/zsanli/docker-action-examples/actions/workflows/nightly.yml/badge.svg)](https://github.com/zsanli/docker-action-examples/actions/workflows/nightly.yml) [![PR CI](https://github.com/zsanli/docker-action-examples/actions/workflows/pr-ci.yml/badge.svg?branch=dev)](https://github.com/zsanli/docker-action-examples/actions/workflows/pr-ci.yml) [![Publish Releases to Hub](https://github.com/zsanli/docker-action-examples/actions/workflows/release.yml/badge.svg?branch=v1.1.1)](https://github.com/zsanli/docker-action-examples/actions/workflows/release.yml)
 
 Welcome. This is a simple example application to show a common Docker specific
 GitHub Action setup. We have a Python Flask application that is built and

@@ -36,7 +36,8 @@ unit-test:
 	@docker --context default build --progress plain --target test ./app
 
 test: unit-test
-    
+############
+##########    
 
 # Build a production image for the application.
 .PHONY: build

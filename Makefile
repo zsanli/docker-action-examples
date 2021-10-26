@@ -35,15 +35,7 @@ dev:
 unit-test:
 	@docker --context default build --progress plain --target test ./app
 
-lint: 
-	@echo "\nRunning Pylint against source and test files...\n"
-	@pylint --rcfile=setup.cfg **/*.py
-	@echo "\nRunning Flake8 against source and test files...\n"
-	@flake8
-	@echo "\nRunning Bandit against source files...\n"
-	@bandit -r --ini setup.cfg
-
-test: unit-test lint
+test: unit-test
     
 
 # Build a production image for the application.

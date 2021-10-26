@@ -35,8 +35,8 @@ dev:
 unit-test:
 	@docker --context default build --progress plain --target test ./app
 
-lint:
-    @echo "\nRunning Pylint against source and test files...\n"
+lint: 
+	@echo "\nRunning Pylint against source and test files...\n"
 	@pylint --rcfile=setup.cfg **/*.py
 	@echo "\nRunning Flake8 against source and test files...\n"
 	@flake8

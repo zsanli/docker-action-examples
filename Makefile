@@ -2,8 +2,6 @@
 # an environment variable or using the Engine config, see:
 # https://docs.docker.com/develop/develop-images/build_enhancements/#to-enable-buildkit-builds
 export DOCKER_BUILDKIT=1
-#############
-
 
 GIT_TAG?=$(shell git describe --tags --match "v[0-9]*" 2> /dev/null)
 ifeq ($(GIT_TAG),)
